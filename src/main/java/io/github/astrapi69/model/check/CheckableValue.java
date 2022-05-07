@@ -24,12 +24,12 @@
  */
 package io.github.astrapi69.model.check;
 
+import javax.swing.Icon;
+
 import lombok.AccessLevel;
 import lombok.Data;
 import lombok.experimental.FieldDefaults;
 import lombok.experimental.SuperBuilder;
-
-import javax.swing.Icon;
 
 @Data
 @SuperBuilder

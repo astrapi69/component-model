@@ -24,12 +24,12 @@
  */
 package io.github.astrapi69.model.radio;
 
+import java.util.Set;
+
 import lombok.AccessLevel;
 import lombok.Data;
 import lombok.experimental.FieldDefaults;
 import lombok.experimental.SuperBuilder;
-
-import java.util.Set;
 
 @Data
 @SuperBuilder
