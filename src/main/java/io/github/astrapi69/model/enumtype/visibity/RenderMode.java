@@ -29,10 +29,16 @@ package io.github.astrapi69.model.enumtype.visibity;
  */
 public enum RenderMode
 {
-	/** The invisible mode. In this mode the component is not rendered, so it is not visible */
+	/**
+	 * The invisible mode. In this mode the component is not rendered, so it is not visible
+	 */
 	INVISIBLE,
-	/** The viewable mode. In this mode the component is visible but not enabled and not editable */
+	/**
+	 * The viewable mode. In this mode the component is visible but not enabled and not editable
+	 */
 	VIEWABLE,
-	/** The editable mode. In this mode the component is visible, enabled and editable */
+	/**
+	 * The editable mode. In this mode the component is visible, enabled and editable
+	 */
 	EDITABLE
 }
