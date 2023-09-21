@@ -22,9 +22,7 @@
  * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-package io.github.astrapi69.model.radio;
-
-import java.util.Set;
+package io.github.astrapi69.component.model.download;
 
 import lombok.AccessLevel;
 import lombok.Data;
@@ -34,8 +32,9 @@ import lombok.experimental.SuperBuilder;
 @Data
 @SuperBuilder
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class RadioGroupModel<T>
+public class DownloadModel
 {
-	T selected;
-	Set<T> radios;
+	String filename;
+	String path;
+	String contentType;
 }
