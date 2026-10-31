@@ -5,12 +5,11 @@
 [![Java CI with Gradle](https://github.com/astrapi69/component-model/actions/workflows/gradle.yml/badge.svg)](https://github.com/astrapi69/component-model/actions/workflows/gradle.yml)
 [![Coverage Status](https://codecov.io/gh/astrapi69/component-model/branch/develop/graph/badge.svg)](https://codecov.io/gh/astrapi69/component-model)
 [![Open Issues](https://img.shields.io/github/issues/astrapi69/component-model.svg?style=flat)](https://github.com/astrapi69/component-model/issues)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.astrapi69/component-model/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.astrapi69/component-model)
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.astrapi69/component-model)](https://central.sonatype.com/artifact/io.github.astrapi69/component-model)
 [![Javadocs](http://www.javadoc.io/badge/io.github.astrapi69/component-model.svg)](http://www.javadoc.io/doc/io.github.astrapi69/component-model)
 [![MIT License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](http://opensource.org/licenses/MIT)
 [![Donate](https://img.shields.io/badge/donate-❤-ff2244.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GVBTWLRAZ7HB8)
 [![Hits Of Code](https://hitsofcode.com/github/astrapi69/component-model?branch=develop)](https://hitsofcode.com/github/astrapi69/component-model/view?branch=develop)
-[![Lines Of Code](https://tokei.rs/b1/github/astrapi69/component-model)](https://github.com/astrapi69/component-model)
 
 </div>
 
@@ -39,7 +38,7 @@ applications.
 ## gradle dependency
 
 Replace the variable ${latestVersion} with the current latest
-version: [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.astrapi69/component-model/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.astrapi69/component-model)
+version: [![Maven Central](https://img.shields.io/maven-central/v/io.github.astrapi69/component-model)](https://central.sonatype.com/artifact/io.github.astrapi69/component-model)
 
 You can first define the version in the ext section and add than the following gradle dependency to
 your project `build.gradle` if you want to import the core functionality of component-model:
@@ -64,10 +63,7 @@ then add the dependency to the dependencies area
 
 ## Maven dependency
 
-Maven dependency is now on sonatype.
-Check
-out [sonatype repository](https://oss.sonatype.org/index.html#nexus-search;gav~io.github.astrapi69~component-model~~~)
-for latest snapshots and releases.
+The library is on Maven Central. Check out [Maven Central](https://central.sonatype.com/artifact/io.github.astrapi69/component-model) for the latest release.
 
 Add the following maven dependency to your project `pom.xml` if you want to import the core
 functionality of component-model:
